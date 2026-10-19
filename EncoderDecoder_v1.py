@@ -36,9 +36,9 @@ except ImportError as exc:
 
 
 DEFAULT_FILES = (
-    "/Users/4c/Desktop/GHQ/data/loto7_4704_k83.csv",
-    "/Users/4c/Desktop/GHQ/data/loto7_4704_k83_loto_2974.csv",
-    "/Users/4c/Desktop/GHQ/data/loto7_4704_k83_loto_plus_1730.csv",
+    "/data/loto7_4704_k83.csv",
+    "/data/loto7_4704_k83_loto_2974.csv",
+    "/data/loto7_4704_k83_loto_plus_1730.csv",
 )
 
 BALLS = 39
@@ -825,7 +825,7 @@ Kontrola: prethodno izvuceno kolo
 7, 10, 13, 27, 28, 31, 38
 
 NEXT:
-1, 8, 12, 18, 29, 33, 39
+1, x, 12, y, 29, z, 39
 
 Opis izlaza: najduži uzastopni niz=1; 1-19: 4; 20-39: 3; ista kombinacija u istoriji: 0.
 Opis izlaza ne utiče na izbor brojeva.
@@ -868,7 +868,7 @@ Kontrola: prethodno izvuceno kolo
 9, 14, 17, 19, 24, 28, 35
 
 NEXT:
-1, 9, 14, 21, 29, 33, 39
+1, x, 14, y, 29, z, 39
 
 Opis izlaza: najduži uzastopni niz=1; 1-19: 3; 20-39: 4; ista kombinacija u istoriji: 0.
 Opis izlaza ne utiče na izbor brojeva.
@@ -926,7 +926,7 @@ Kontrola: prethodno izvuceno kolo
 7, 10, 13, 27, 28, 31, 38
 
 NEXT:
-1, 8, 12, 18, 29, 34, 39
+1, x, 12, y, 29, z, 39
 
 Opis izlaza: najduži uzastopni niz=1; 1-19: 4; 20-39: 3; ista kombinacija u istoriji: 0.
 Opis izlaza ne utiče na izbor brojeva.
@@ -935,9 +935,9 @@ Opis izlaza ne utiče na izbor brojeva.
 
 ========================================================================
 KONAČNI NEXT REZULTATI
-loto7_4704_k83.csv: (1, 8, 12, 18, 29, 33, 39)
-loto7_4704_k83_loto_2974.csv: (1, 9, 14, 21, 29, 33, 39)
-loto7_4704_k83_loto_plus_1730.csv: (1, 8, 12, 18, 29, 34, 39)
+loto7_4704_k83.csv: (1, x, 12, y, 29, z, 39)
+loto7_4704_k83_loto_2974.csv: (1, x, 14, y, 29, z, 39)
+loto7_4704_k83_loto_plus_1730.csv: (1, x, 12, y, 29, z, 39)
 """
 
 
